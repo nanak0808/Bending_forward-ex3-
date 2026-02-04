@@ -1,0 +1,3 @@
+repository "Kido_VR/Kido_VR_exp2@15668440074461@cloud"
+  path "/"
+    smartbranch "/main/develop"
