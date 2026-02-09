@@ -16,4 +16,8 @@
 - GameManagerをActiveにするとゲームが始まる
 - GameManagerは「フルーツの落下（```GameManager > FruitSpawner```）」「スコア（```GameManager > Canvas > ScoreText```）」「制限時間```GameManager > Canvas > TimeText```」等を一元管理している空のオブジェクト
 - BGMの切り替わりは、GameManangerがアクティブか非アクティブかが条件
-- フルーツの落下全般に関しては、```GameManager > FruitSpawner```にアタッチされているスクリプトのプロパティから変更可能 
+- フルーツの落下全般に関しては、```GameManager > FruitSpawner```にアタッチされているスクリプトのプロパティから変更可能
+
+⚠️
+このプロジェクトは実験用のため、すべて自動化されているわけではないです。
+実験時の操作方法はインストラクションを参照してください
