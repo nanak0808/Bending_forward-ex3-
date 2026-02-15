@@ -13,7 +13,7 @@
 2. ```OVRCameraRig > OVRInteraction > OVRHands > Left(Right)HandSynthetic > OVRLeft(Right)HandVisual > OculusHand_L(R)```からハンドトラッキングした手の座標データが取得できるため、スクリプト（ChangeHandTrackPosition.cs）でその値をもとに表示する手のオブジェクトの位置を変更
 
 ### ゲームに関して　
-- ゲーム中は，ex2のような手のオブジェクト（OVRCameraRig > TrackingSpace > Left(Right)HandAnchor > OVRLeft(Right)HandSynthetic > OVRLeft(Right)HandVisual）を非アクティブにする
+- ゲーム中は，ex2のような手のオブジェクト（```OVRCameraRig > TrackingSpace > Left(Right)HandAnchor > OVRLeft(Right)HandSynthetic > OVRLeft(Right)HandVisual```）を非アクティブにする
 - GameManagerをActiveにするとゲームが始まる
 - GameManagerは「フルーツの落下（```GameManager > FruitSpawner```）」「スコア（```GameManager > Canvas > ScoreText```）」「制限時間```GameManager > Canvas > TimeText```」等を一元管理している空のオブジェクト
 - BGMの切り替わりは、GameManangerがアクティブか非アクティブかが条件
